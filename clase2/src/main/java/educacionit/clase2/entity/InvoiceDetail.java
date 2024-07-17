@@ -3,6 +3,8 @@ package educacionit.clase2.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.io.Serializable;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -10,7 +12,7 @@ import lombok.*;
 @ToString
 @Entity
 @Table(name = "INVOICE_DETAIL")
-public class InvoiceDetail {
+public class InvoiceDetail implements Serializable {
 
     private static final long serialVersionUID=1;
     @Id

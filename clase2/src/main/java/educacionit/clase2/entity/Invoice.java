@@ -15,7 +15,7 @@ import java.util.List;
 @Table(name = "INVOICE")
 
 //@Data sustituiría todos los @ puestos arriba
-public class Invoice {
+public class Invoice  {
     //hago una BD en la cual vamos a poner todas las facturas
     //entonces cuando cree varios objetos factur a, todos van a poder ingresar a este campo y todos van a tener el mismo valor por ser estatico
 
