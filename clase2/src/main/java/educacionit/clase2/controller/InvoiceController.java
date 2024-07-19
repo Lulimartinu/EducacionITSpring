@@ -33,7 +33,7 @@ public class InvoiceController {
 
     @GetMapping("/getAll1")
     public String getAllInvoiceModel(Model model){
-        model.addAttribute("message","Bienvenido a la página de Luisina ");
+       // model.addAttribute("message","Bienvenido a la página de Luisina ");
         return "index";
     }
 
@@ -44,7 +44,6 @@ public class InvoiceController {
          return "index";
     }
 
-    //no es delete mapping?
     @DeleteMapping("/deleteOne")
     public String deleteById(Model model, Long id)
     {
