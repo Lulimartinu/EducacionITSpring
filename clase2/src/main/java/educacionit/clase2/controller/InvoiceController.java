@@ -23,14 +23,14 @@ public class InvoiceController {
     @Qualifier(value= "implementacionMejorada")
     private IInvoiceService service;
 
-    @GetMapping("/getAll")
+ /*   @GetMapping("/getAll")
     public List<Invoice> getAllInvoices()
     {
      //   llenarFactura();
       //  return service.invoices().toString();
         return service.invoices();
     }
-
+*/
     @GetMapping("/getAll1")
     public String getAllInvoiceModel(Model model){
        // model.addAttribute("message","Bienvenido a la página de Luisina ");
